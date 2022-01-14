@@ -2,7 +2,7 @@
 
 require('magicli')({
 	commands: {
-		'convert-excel-to-json': {
+		'convert-xls-to-json': {
 			options: [{
 				name: 'config',
 				description: 'A full config in a valid JSON format',
