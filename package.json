@@ -1,19 +1,21 @@
 {
-  "name": "convert-excel-to-json",
-  "version": "1.7.0",
+  "name": "convert-xls-to-json",
+  "version": "1.8.0",
   "description": "Convert Excel to JSON",
-  "homepage": "https://github.com/DiegoZoracKy/convert-excel-to-json/",
+  "homepage": "https://github.com/dhuddell/convert-excel-to-json/",
   "main": "./lib/convert-excel-to-json.js",
   "bin": "./bin/cli.js",
   "author": {
-    "name": "Diego ZoracKy",
-    "email": "diego.zoracky@gmail.com",
-    "url": "https://github.com/DiegoZoracKy/"
+    "name": "Dan Huddell",
+    "url": "https://github.com/dhuddell/"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/DiegoZoracKy/convert-excel-to-json.git"
+    "url": "git://github.com/dhuddell/convert-excel-to-json.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "keywords": [
     "excel to json",
